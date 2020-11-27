@@ -5,7 +5,7 @@ const AppD = () => {
     return (
         <>
             
-        <main className="container">
+        <main className="container ">
           <Formulario />
         </main>
         

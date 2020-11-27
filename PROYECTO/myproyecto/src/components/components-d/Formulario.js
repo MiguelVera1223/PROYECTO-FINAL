@@ -29,7 +29,7 @@ const Formulario = () => {
         
     }
     return (
-        <div className="row">
+        <div className="row" >
             <div className="col-12">
                 <div className="card shadow">
                     <div className="card-body">
