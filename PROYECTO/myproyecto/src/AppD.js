@@ -1,12 +1,12 @@
 import React from 'react'
-import Formulario from './components/components-d/Formulario'
+import PrintArticulos from './components/components-d/PrintArticulos'
 
 const AppD = () => {
     return (
         <>
             
         <main className="container ">
-          <Formulario />
+          <PrintArticulos />
         </main>
         
         </>
