@@ -1,7 +1,7 @@
 import React from 'react'
 import AppD from './AppD'
 import AppM from './AppM'
-import Header from  './components/a/Header'
+import Header from  './components/navbar/Header'
 const App = () => {
   return (
     <div>
