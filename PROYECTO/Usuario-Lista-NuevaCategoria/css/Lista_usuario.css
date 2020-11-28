@@ -1,0 +1,60 @@
+.buscar{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+.buscar_hijo{
+    position: absolute;
+    
+}
+.buscar input{
+    width: 400px;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+}
+.btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    color: white;
+}
+
+.div_table{
+    border: 2px solid black;
+    height: 200px;
+    background: white;
+}
+
+.borde {
+    border: 1px solid var(--light);
+    
+  }
+  tbody tr:nth-child(odd) {
+    background-color: #eee;
+  }
+  tbody tr:hover {
+    background-color: #dfdfdf;
+  }
+  table.borde {
+    /*si dos bordes se encuentran contiguos
+    que se hagan un solo borde*/
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th.borde{
+      color: var(--light);
+      background: #0B2126;
+  }
+  th.borde,
+  td.borde {
+    padding: 15px;
+  }

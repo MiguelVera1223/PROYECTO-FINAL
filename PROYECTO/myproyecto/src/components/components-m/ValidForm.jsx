@@ -3,10 +3,10 @@ import UserTable from './components/components-m/UserTable'
 import { v4 as uuidv4 } from 'uuid';
 import AddUserForm from './components/components-m/AddUserForm';
 import EditUserForm from './components/components-m/EditUserForm';
-const AppM = () => {
+const ValidForm = () => {
 
   const usersData = [
-    { id: uuidv4(), name: 'Miguel Vera', username: 'Mvera' },
+    { id: uuidv4(), name: 'Tania', username: 'floppydiskette' },
     { id: uuidv4(), name: 'Craig', username: 'siliconeidolon' },
     { id: uuidv4(), name: 'Ben', username: 'benisphere' },
   ]
@@ -88,4 +88,4 @@ const AppM = () => {
   )
 }
 
-export default AppM
+export default ValidForm

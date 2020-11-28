@@ -1,0 +1,19 @@
+@import url("./Categoria.css");
+@import url("./Variables.css");
+@import url("./Lista_usuario.css");
+@import url("./Nuevo_Usuario.css");
+
+*{
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+}
+
+html {
+	font-size: 16px;
+}
+
+body{
+	background: var(--color1);
+}
+

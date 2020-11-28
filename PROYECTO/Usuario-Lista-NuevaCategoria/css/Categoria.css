@@ -1,0 +1,96 @@
+.section_principal {
+	padding: 30px;
+	background: var(--color1);
+	font-family: var(--oswald);
+	font-size: 1.5em;
+	height: 100vh;
+}
+
+.header {
+	height: 235px;
+}
+.header_nav {
+	height: 50px;
+}
+
+.header_div {
+	height: 150px;
+}
+
+.div_elegir {
+	height: 80px;
+}
+
+.ul_categoria {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+.categoria_li {
+	padding: 8px;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.categoria_li_nueva {
+	background: var( --color2);
+}
+
+.li_nueva {
+	color: var(--light);
+}
+
+.li_a:hover {
+	color: var(--light);
+}
+
+.categoria_li:hover {
+	background: var( --color2);
+}
+
+.div_form {
+	background: var(--light);
+	height: 400px;
+	padding: 20px;
+	border: 3px solid;
+}
+
+i {
+	margin-right: 10px;
+	color: black;
+}
+
+.input_label {
+	font-family: 'Oswald', sans-serif;
+	width: 350px;
+	height: 30px;
+	border: 2.5px solid;
+}
+.div_label {
+	height: 130px;
+}
+.div_button {
+	text-align: center;
+}
+button {
+	font-family: var(--oswald);
+	border: none;
+	font-size: 1em;
+	color: var(--light);
+	font-weight: bold;
+	width: 130px;
+}
+.button_guardar {
+	background: #5bb85c;
+	margin-right: 30px;
+}
+.button_limpiar {
+	background: #d9534f;
+}
+
+button:hover {
+	cursor: pointer;
+}

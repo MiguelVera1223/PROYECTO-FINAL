@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Flaticon/flaticon.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <section class="section_principal">
+        <header class="header">
+            <nav class="header_nav">
+                <a href="./Nueva_Categoria.html" class="nav_a">
+                    <- Regresar </a>
+            </nav>
+
+            <div class="header_div">
+                <h1>NUEVO USUARIO</h1>
+                <p>En el módulo USUARIO podrá registrar nuevos usuarios en el sistema ya sea un administrador o un
+                    encargado, también podrá ver la lista de usuarios registrados, buscar usuarios en el sistema,
+                    actualizar datos de otros usuarios y los suyos.
+
+                </p>
+            </div>
+
+        </header>
+
+        <div class="div_elegir">
+            <ul class="ul_categoria">
+                <li class="categoria_li categoria_li_nueva"><a href="#" class="li_a li_nueva"><i
+                            class="flaticon-agregar-usuario"></i>Nuevo usuario</a>
+                </li>
+                <li class="categoria_li"><a href="./Lista_Usuarios.html" class="li_a"><i
+                            class="flaticon-portapapeles"></i>Lista
+                        de usuario</a></li>
+            </ul>
+        </div>
+
+
+
+
+        <div class=" ">
+            <form action="">
+
+                <div class="Primer_form">
+                    <div class="titulo_usuario">
+                        <h2><i class="flaticon-usuario"></i>Informacion del usuario</h2>
+                    </div>
+                    <div class="grupo_label">
+                        <div class="info_label">
+                            <label for="">Tipo documento</label>
+                            <br>
+                            <select class="info_label_input">
+                                <option value="">DNI</option>
+                                <option value="">PASAPORTE</option>
+                            </select>
+                        </div>
+
+                        <div class="info_label">
+                            <label for="">Nro documento</label>
+                            <br>
+                            <input type="text" class="info_label_input">
+                        </div>
+
+                        <div class="info_label">
+                            <label for="">Cargo</label>
+                            <br>
+                            <input type="text" class="info_label_input">
+                        </div>
+                    </div>
+
+                    <div class="grupo_label">
+                        <div class="info_label">
+                            <label for="">Nombres</label>
+                            <br>
+                            <input type="text" class="info_label_input">
+                        </div>
+                        <div class="info_label">
+                            <label for="">Apellidos</label>
+                            <br>
+                            <input type="text" class="info_label_input">
+                        </div>
+
+                        <div class="info_label">
+                            <label for="">Telefono</label>
+                            <br>
+                            <input type="text" class="info_label_input">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="Segundo_form">
+                    <div class="titulo_usuario">
+                        <h2><i class="flaticon-usuario"></i>Genero</h2>
+                    </div>
+                    <div class="grupo_label2">
+                        <div class="info_label2">
+                            <input type="checkbox" class="">
+                            <label for="">Masculino</label>
+                            <br>
+                            <input type="checkbox" class="">
+                            <label for="">Femenino</label>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="Tercer_form">
+                    <div class="titulo_usuario">
+                        <h2><i class="flaticon-usuario-1"></i>Informacion de la cuenta</h2>
+                    </div>
+                    <div class="grupo_label3">
+                        <div class="info_label3">
+                            <label for="">Nuevo usuario</label>
+                            <br>
+                            <input type="text" class="info_label_input">
+                        </div>
+
+                        <div class="info_label3">
+                            <label for="">Email</label>
+                            <br>
+                            <input type="text" class="info_label_input">
+                        </div>
+                    </div>
+
+                    <div class="grupo_label3">
+                        <div class="info_label3">
+                            <label for="">Contraseña</label>
+                            <br>
+                            <input type="text" class="info_label_input">
+                        </div>
+
+                        <div class="info_label3">
+                            <label for="">Contraseña</label>
+                            <br>
+                            <input type="text" class="info_label_input">
+                        </div>
+                    </div>
+
+                    <div class="grupo_label3">
+                        <div class="info_label3">
+                            <label for="">Imagen</label>
+                            <br>
+
+                            <input type="file" name="archivo" id="file">
+                            <input type="button" class="info_button" value="subir archivo"
+                                onclick="document.getElementById('file').click()">
+                        </div>
+
+                    </div>
+
+                    <br>
+                    <br>
+                    <div class="div_button">
+                        <button type="submit" class="flaticon-guardar-el-archivo button_guardar"> Guardar</button>
+                        <button type="reset" class="flaticon-limpiar button_limpiar"> Limpiar</button>
+                    </div>
+                </div>
+
+        </div>
+        </form>
+        </div>
+
+    </section>
+</body>
+
+</html>

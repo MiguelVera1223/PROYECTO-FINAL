@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2? family = Roboto: wght @ 100 & display = swap");
+
+:root {
+  /* background */
+  --color1: #f1f1f1;
+  
+  --color2: #1873fb;
+  --light:#feffff;
+  --width: 1440px;
+  
+
+  --oswald: 'Oswald', sans-serif;  
+  --monserrat: "Montserrat", sans-serif;
+  --roboto: "Roboto", sans-serif;
+}
